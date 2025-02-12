@@ -17,4 +17,6 @@
   --color-yellow: #FFDB59;
   --color-light: #909090;
   --color-dark: #0F141C;
+  --color-light-bg: rgb(23, 27, 34);
+  --color-dark-bg: rgb(15, 20, 28);
 }
