@@ -10,9 +10,9 @@ import {
 import { RiFileDownloadLine } from "react-icons/ri";
 
 
-const Sidebar = () => {
+const Sidebar = ({showSidebar}) => {
   return (
-    <div className="max-w-[249px] w-full h-[100vh] hidden bg-light-bg lg:flex flex-col justify-between overflow-y-scroll [&::-webkit-scrollbar]:w-2">
+    <div className={`absolute max-w-[249px] w-full h-[100vh] bg-light-bg lg:flex flex-col justify-between overflow-y-scroll [&::-webkit-scrollbar]:w-2 ${showSidebar ? "translate-x-0" : "-translate-x-[120%] lg:translate-x-0"} duration-500 z-40 `}>
       <div className="w-full flex flex-col items-center gap-2 justify-between mt-5">
         <div className="w-[210px]">
           <img src={sidebarImg} alt="" className="w-[210px] " />
