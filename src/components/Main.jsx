@@ -1,5 +1,6 @@
 import AboutMe from "../pages/AboutMe"
 import Home from "../pages/Home"
+import Resume from "../pages/Resume"
 
 const Main = () => {
   return (
@@ -7,6 +8,7 @@ const Main = () => {
       <div className="mt-5 px-5">
           <Home />
           <AboutMe />
+          <Resume />
       </div>
     </div>
   )
