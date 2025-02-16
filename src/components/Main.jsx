@@ -1,6 +1,8 @@
 import AboutMe from "../pages/AboutMe"
+import Contact from "../pages/Contact"
 import Home from "../pages/Home"
 import Resume from "../pages/Resume"
+import Footer from "./Footer"
 
 const Main = () => {
   return (
@@ -9,6 +11,8 @@ const Main = () => {
           <Home />
           <AboutMe />
           <Resume />
+          <Contact />
+          <Footer />
       </div>
     </div>
   )

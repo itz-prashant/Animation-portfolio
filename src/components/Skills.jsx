@@ -7,8 +7,8 @@ import { TbBrandMysql } from "react-icons/tb";
 
 export const Skills = () => {
   return (
-    <div className="mt-10 text-white flex flex-col gap-8 w-full">
-        <div className="flex items-baseline gap-4 justify-between">
+    <div className="mt-24 text-white flex flex-col gap-8 w-full">
+        <div className="flex items-baseline gap-4 justify-between mb-5">
             <h1 className="sm:text-5xl text-4xl w-fit shrink-0 font-bold">Skills.</h1>
             <div className="h-[1.6px] w-full bg-white/30 "></div>
         </div>

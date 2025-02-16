@@ -5,9 +5,9 @@ import { Skills } from "../components/Skills";
 const Resume = () => {
   return (
     <div>
-      <div className="mt-10 text-white flex lg:flex-row flex-col gap-8 lg:gap-0">
+      <div className="mt-24 text-white flex lg:flex-row flex-col gap-8 lg:gap-4">
         <div className="flex flex-col gap-8 lg:w-1/2 w-full items-start justify-between">
-          <div className="flex items-baseline justify-between">
+          <div className="flex items-baseline justify-between w-full">
             <h1 className="sm:text-5xl text-4xl w-fit shrink-0 font-bold">
               Education.
             </h1>
@@ -46,7 +46,7 @@ const Resume = () => {
         </div>
 
         <div className="flex flex-col gap-8 lg:w-1/2 w-full items-start justify-between">
-          <div className="flex items-baseline  justify-between">
+          <div className="flex items-baseline  justify-between w-full">
             <h1 className="sm:text-5xl text-4xl w-fit shrink-0 font-bold">
               Experience.
             </h1>
