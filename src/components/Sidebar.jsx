@@ -8,7 +8,11 @@ import {
   FaFacebookSquare, FaRegAddressCard, FaBriefcase  
 } from "react-icons/fa";
 import { RiFileDownloadLine } from "react-icons/ri";
+import { Link } from "react-router-dom";
 
+const scrollToSection = (id) => {
+  document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+};
 
 const Sidebar = ({showSidebar}) => {
   return (
@@ -36,23 +40,23 @@ const Sidebar = ({showSidebar}) => {
 
       <div className="mt-8">
         <ul className="flex flex-col text-white">
-          <li className="flex gap-2 items-center border-t border-light p-3">
+          <li onClick={()=> scrollToSection('home')} className="flex gap-2 items-center border-t border-light p-3 cursor-pointer">
             <span className="text-2xl"><IoMdHome /></span>
             <h5 className="text-light">Home</h5>
           </li>
-          <li className="flex gap-2 items-center border-t border-light p-3">
+          <li onClick={()=> scrollToSection('about')} className="flex gap-2 items-center border-t border-light p-3 cursor-pointer">
             <span className="text-2xl"><AiOutlineUser /></span>
             <h5 className="text-light">About</h5>
           </li>
-          <li className="flex gap-2 items-center border-t border-light p-3">
+          <li onClick={()=> scrollToSection('resume')} className="flex gap-2 items-center border-t border-light p-3 cursor-pointer">
             <span className="text-2xl"><FaRegAddressCard /></span>
             <h5 className="text-light">Resume</h5>
           </li>
-          <li className="flex gap-2 items-center border-t border-light p-3">
+          <li onClick={()=> scrollToSection('portfolio')} className="flex gap-2 items-center border-t border-light p-3 cursor-pointer">
             <span className="text-2xl"><FaBriefcase /></span>
             <h5 className="text-light">Portfolio</h5>
           </li>
-          <li className="flex gap-2 items-center border-t border-light p-3">
+          <li onClick={()=> scrollToSection('contact')} className="flex gap-2 items-center border-t border-light p-3 cursor-pointer">
             <span className="text-2xl font-bold"><CiAt /></span>
             <h5 className="text-light">Contact</h5>
           </li>

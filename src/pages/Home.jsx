@@ -6,7 +6,7 @@ import Button from '../components/Button'
 
 const Home = () => {
   return (
-    <div className="flex pt-10 lg:flex-row flex-col items-center gap-7">
+    <div id='home' className="flex pt-10 lg:flex-row flex-col items-center gap-7">
         <div className="flex flex-col gap-4 lg:w-1/2 w-full items-center lg:items-start justify-between">
             <h1 className="text-white md:text-7xl sm:text-6xl text-5xl font-extrabold">Ruchita <span className="font-normal md:text-6xl sm:text-5xl text-4xl">Sharma</span></h1>
             <p className="text-pink text-2xl font-medium">Developer</p>

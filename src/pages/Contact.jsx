@@ -4,7 +4,7 @@ import Form from "../components/Form";
 
 const Contact = () => {
   return (
-    <div className="mt-24 text-white flex flex-col gap-8">
+    <div id="contact" className="mt-24 text-white flex flex-col gap-8">
         <div className="flex items-baseline justify-between mb-5">
             <h1 className="sm:text-5xl text-4xl w-fit shrink-0 font-bold">
               Get In Touch.

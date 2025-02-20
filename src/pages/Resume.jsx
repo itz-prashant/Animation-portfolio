@@ -4,7 +4,7 @@ import { Skills } from "../components/Skills";
 
 const Resume = () => {
   return (
-    <div>
+    <div id="resume">
       <div className="mt-24 text-white flex lg:flex-row flex-col gap-8 lg:gap-4">
         <div className="flex flex-col gap-8 lg:w-1/2 w-full items-start justify-between">
           <div className="flex items-baseline justify-between w-full">

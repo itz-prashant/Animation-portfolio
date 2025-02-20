@@ -1,7 +1,7 @@
 
 const AboutMe = () => {
   return (
-    <div className="mt-20 text-white flex flex-col gap-8">
+    <div id="about" className="mt-20 text-white flex flex-col gap-8">
         <div className="flex items-baseline gap-4 justify-between">
             <h1 className="sm:text-5xl text-4xl w-fit shrink-0 font-bold">About Me.</h1>
             <div className="h-[1.6px] w-full bg-white/30 "></div>
